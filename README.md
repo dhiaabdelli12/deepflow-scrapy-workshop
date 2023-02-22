@@ -43,6 +43,11 @@ code deepflow-scrapy-workshop
 ```
 
 ## Spider
+To run a spider from an already created project use the following command
+```
+scrapy runspider <spider_file> o ../data/<output_file_name>.json
+```
+
 To create a new spider, run the following command
 ```
 scrapy genspider <spider_name> <target_website_url>
@@ -50,7 +55,7 @@ scrapy genspider <spider_name> <target_website_url>
 To run a spider and save the output into a .json file inside the data/ directory
 
 ```
-scrapy crawl <spider_name> ../data/<output_file_name>.json
+scrapy crawl <spider_name> -o ../data/<output_file_name>.json
 ```
 
 
