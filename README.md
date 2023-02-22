@@ -45,7 +45,7 @@ code deepflow-scrapy-workshop
 ## Spider
 To run a spider from an already created project use the following command
 ```
-scrapy runspider <spider_file> o ../data/<output_file_name>.json
+scrapy runspider <spider_file> -o ../data/<output_file_name>.json
 ```
 
 To create a new spider, run the following command
