@@ -2,11 +2,23 @@
 This repo contains what we covered in our scraping workshop with scrapy as well as some practice exercices.
 
 TO DO:
-- Add an errback function body to handle failed urls by logging them into a text file within the logs/ directory
-- Create a spider for tunisieannonce
-- Create a spider for genius
-- Update the spider to fetch the urls for each post instead of just getting the title
-- Add a new method to open each post/song/... and scrape data in details
+- [ ] In the jumia spider, do processing on the scraped details of each post to clean it
+- [ ] Create a spider for tunisieannonce (http://www.tunisie-annonce.com/AnnoncesImmobilier.asp)
+- [ ] Scrape the following data from each post
+    - Post title
+    - Category
+    - Location
+    - Price
+    - Text
+- [ ] Create a spider for genius (https://genius.com/songs/all)
+- [ ] Scrape the following data from each song
+    - Song title
+    - Artist
+    - Album
+    - Release date
+    - Lyrics
+
+- [ ] For all spiders, add an errback function body to handle failed urls by logging them into a text file within the logs/ directory
 
 ## Setup
 
